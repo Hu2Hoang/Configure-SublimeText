@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+long long gcd(long long a, long long b){
+	long long x;
+	while(b>0){
+		x=a%b;
+		a=b;
+		b=x;
+	}
+return a;
+}
+//Boi chung nho nhat
+long long lcm(long long d, long long c){
+	long long x;
+	x=gcd(d,c);
+return (d*c)/x;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>long long gc</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>

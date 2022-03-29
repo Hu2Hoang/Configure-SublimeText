@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+l2n(int n){
+	if(n==0) return 1;
+	switch(n%4){
+		case 0: return 6 ;break;
+		case 1: return 2;break;
+		case 2: return 4;break;
+		case 3: return 8;break;
+	}
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>int l2n</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<scope>source.c++</scope> 
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+#include<stdio.h>
+#include<math.h>
+#include<stdbool.h>
+#include<string.h>
+#include<stdlib.h>
+#define fio(i,a1,b1) for(i=a1;i<b1;i++)
+#define w(t) int t;scanf("%d",&t);while(t--)
+#define max(a,b) (((a)>(b))?(a):(b))
+#define min(a,b) (((a)<(b))?(a):(b))
+int i,n;
+int main(){
+	
+	return 0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>#in</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c</scope>
+	
+</snippet>

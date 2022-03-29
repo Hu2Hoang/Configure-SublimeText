@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+float stamgiac(float xa, float ya, float xb, float yb, float xc, float yc)
+{
+    return 0.5*fabs(xa*yb-xb*ya+xb*yc-xc*yb+xc*ya-xa*yc);
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>float stg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>source.c++</scope>
+</snippet>

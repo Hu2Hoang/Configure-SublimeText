@@ -1,0 +1,53 @@
+{
+	"update_check": false,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"color_scheme": "Packages/Horizon Color Scheme/Horizon.sublime-color-scheme",
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"save_on_focus_lost": true,
+	 /*"keys": ["ctrl+s"],*/ /*"command": "auto_save"*/ 
+	"font_size": 12,
+	"font_face": "Fira Code",
+	"ui_native_titlebar": true,
+	"themed_title_bar": true,
+	"caret_extra_top": 0,
+	"caret_extra_bottom": 0,
+	"font_options":
+	[
+    	"gray_antialias"
+	],
+	
+	/*"material_theme_accent_acid-lime": true,*/
+	/*"material_theme_accent_blue": true,*/
+	/*"material_theme_accent_sky": true,*/
+	/*"material_theme_accent_cyan": true,*/
+	"material_theme_accent_sky": true,
+	/*"material_theme_accent_scrollbars": true,*/
+	/*"material_theme_accent_titlebar": true,*/
+	/*"material_theme_small_statusbar": true,*/
+	/*"material_theme_small_statusbar": true,*/
+	"material_theme_small_statusbar": true,
+	/*"material_theme_titlebar": true,*/
+	/*"material_theme_panel_separator": true,*/
+	/*"material_theme_contrast_mode": true,*/
+	/*"material_theme_accent_titlebar": true,*/
+	/*"material_theme_bright_scrollbars": true,*/
+	/*"material_theme_compact_panel": true,*/
+	/*"material_theme_arrow_folders": true,*/
+	/*"material_theme_big_fileicons": true,*/
+	/*"material_theme_disable_fileicons": true,*/
+	"material_theme_disable_folder_animation": true,
+	"material_theme_disable_tree_indicator": true,
+	/*"material_theme_bold_tab": true,*/
+	/*"material_theme_bold_tab": true,*/
+	"material_theme_small_tab": true,
+	/*"material_theme_tabs_autowidth": true,*/
+	/*"material_theme_tabs_separator": true,*/
+	/*"material_theme_tabs_separator": true,*/
+	/*"material_theme_tabs_separator": true,*/
+	"dark_color_scheme": "Packages/Horizon Color Scheme/Horizon.sublime-color-scheme",
+	"light_color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
+	"auto_complete": true,
+}

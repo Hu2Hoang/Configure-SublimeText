@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+gt(int t)
+{
+    int gt = 1;
+    for (int g = 2; g <= t; g++)
+    {
+        gt *= g;
+    }
+    return gt;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>int gt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>source.c++</scope> 
+</snippet>

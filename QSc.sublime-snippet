@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+void swap(int &a,int &b){
+	int tmp;
+	tmp=a;
+	a=b;
+	b=tmp;
+}
+void quicksort(int a[], int left, int right){
+	int l=left,r=right;
+	int key=a[(l+r)/2];
+
+	while(l<=r){
+		while(a[l]<key) l++;
+		while(a[r]>key) r--;
+		if(l<=r){
+			swap(a[l],a[r]);
+			l++;r--;
+		}
+	}
+	if(left<r) quicksort(a,left,r);
+	if(l<right) quicksort(a,l,right);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>void q</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c</scope>
+</snippet>
